@@ -4,10 +4,7 @@ body{
     margin: 0;
 
 }
-/* #special-effect{
-    color: rgba(8, 0, 0, 0.815);
-    font-weight: 700;
-} */
+
 #network-1{
     padding: 0px 80px;
 }
@@ -37,6 +34,26 @@ footer img{
 }
 .alignment{
     align-items: center;
+}
+
+.work-area img{
+    width: 100%;
+}
+
+.work-area{
+    width: 30%;
+    float: left;
+    margin: 80px;
+}
+
+.work-name{
+    height: 200px;
+    box-shadow: 10px 10px 20px cornsilk;
+    padding: 40px;
+    background-color: coral;
+    border-left: 5px solid;
+    border-image: linear-gradient(green,red);
+    border-image-slice: 1;
 }
 #inquiry-1{
     padding:20px;
@@ -106,7 +123,7 @@ h3{
     color: rgba(56, 8, 8, 0.815);
 }
 h2{
-    text-align:center;
+    text-align:justify;
     font-style: italic;
 }
 
@@ -150,7 +167,7 @@ h2{
     border-bottom: 2px solid black;
 }
 section{
-    height: 800px;
+    height: 500px;
 }
 #name-highlight{
     color: tomato;
